@@ -28,7 +28,7 @@ int main()
     bool entrar = false;
     char usuario[MAXLINE];
     char password[MAXLINE];
-    int i=0;
+    int i = 0;
     int u_intentos = 0;
     do {    
         printf("\n\n\t Bienvenido");   
