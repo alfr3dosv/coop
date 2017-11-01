@@ -1,6 +1,9 @@
 // Console.h
 // Una libreria que facilita la creacion de interfaces simple
 
+#ifndef CONSOLE_H
+#define CONSOLE_H
+
 void Number(char *, int *);
 void Double(char *, double *);
 void String(char *, char *);
@@ -41,3 +44,5 @@ void Intervalo(char *msg,int *dest, int menor, int mayor) {
         scanf("%d", dest);
     } while((*dest < menor) || (*dest > mayor));
 }
+
+#endif

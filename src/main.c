@@ -4,11 +4,11 @@
 #include <string.h>
 
 #include "objects.h"
-#include "objects.h"
 #include "data/data.h"
 #include "files.h"
 #include "files.h"
 #include "data/StringList.h"
+#include "console.h"
 #include "console.h"
 #include "data/doctor.h"
 #include "data/paciente.h"
