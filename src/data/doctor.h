@@ -1,3 +1,6 @@
+#ifndef DOCTOR_H
+#define DOCTOR_H
+
 #define this doctor_this
 
 //doctor
@@ -268,3 +271,5 @@ void doctores_saveFile(char *path)
 }
 
 #undef this
+
+#endif

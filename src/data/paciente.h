@@ -1,5 +1,7 @@
-#define this paciente_this
+#ifndef PACIENTE_H
+#define PACIENTE_H
 
+#define this paciente_this
 
 typedef struct {
     int id;
@@ -371,4 +373,6 @@ void pacientes_saveFile(char *path)
     }
     $(file).close();
 }
+
 #undef this
+#endif

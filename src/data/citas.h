@@ -1,3 +1,5 @@
+#ifndef CITAS_H
+#define CITAS_H
 #define this cita_this
 
 //citas
@@ -381,3 +383,4 @@ void citas_saveFile(char *path)
 }
 
 #undef this
+#endif

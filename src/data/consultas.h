@@ -1,3 +1,6 @@
+#ifndef CONSULTAS_H
+#define CONSULTAS_H
+
 #define this consulta_this
 
 //consultas
@@ -250,3 +253,4 @@ void consultas_saveFile(char *path)
 }
 
 #undef this
+#endif

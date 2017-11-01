@@ -1,3 +1,6 @@
+#ifndef USUARIO_H
+#define USUARIO_H
+
 typedef struct
 {
     int id;
@@ -45,3 +48,5 @@ void usuarios_init()
     }
     usuarios_openFile("usuario.txt");
 }
+
+#endif
