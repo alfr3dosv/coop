@@ -1,3 +1,6 @@
+#ifndef DATA_H
+#define DATA_H
+
 #define MAXLINE 1000
 #define MAXDESCR 1000000
 #define MAXLINES 1000
@@ -17,3 +20,4 @@ typedef struct {
 } BigString;
 
 
+#endif
