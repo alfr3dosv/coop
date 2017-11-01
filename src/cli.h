@@ -1,3 +1,5 @@
+#ifndef CLI_H
+#define CLI_H
 
 void historial_printf(int);
 
@@ -264,3 +266,4 @@ void testP()
 
 }
 
+#endif
