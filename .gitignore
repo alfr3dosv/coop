@@ -1,5 +1,7 @@
 # Text
-*.txt
+cita.txt
+consulta.txt
+paciente.txt
 
 # Prerequisites
 *.d
