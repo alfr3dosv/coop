@@ -1,3 +1,6 @@
+#ifndef FILES_H
+#define FILES_H
+
 #define this files_this
 
 
@@ -111,3 +114,5 @@ char *files_newLine()
 }
 
 #undef this
+
+#endif
