@@ -1,10 +1,10 @@
-# coop
+# COOP
 
 Un ejemplo de como **NO** programar en C. Aunque muestra algunos conceptos de programacion orientada a objetos.
 
-El programa registra citas y consultas para un consultorio, cada Doctor debe de logearse primero. Claro los usuarios y contraseñas estan en el archivo usuario.txt
+El programa registra citas y consultas para un consultorio, cada Doctor debe de logearse primero. Claro los usuarios y contraseñas estan en el archivo usuario.txt =).
 
-# C Object Oriented Programming
+## C Object Oriented Programming
 
 **Crear objetos**
 
@@ -49,10 +49,10 @@ Los metodos usan una variable global llamada ``this`` para saber quien los llamo
 Cuando usamos la macro ``$(objeto)``
 Se expande a ``((objeto->vt->setThis(objeto)), *(objeto->vt))``
 Lo cual hace dos cosas:
- 1. Llama al metodo setThis de nuestra tabla de punteros a metodos y llama a setThis()
+ 1. Llama al metodo ``setThis`` de nuestra tabla de punteros a metodos, ahora ``this`` apunta a ``objeto``
  2. Desreferencia la tabla de punteros a metodos.
 
-# Compilar
+## Compilar
 
 1. Clonar el repositorio o descargar como zip.
 ```
@@ -62,6 +62,9 @@ git clone https://github.com/alfr3dosv/coop.git
 ```
 cd coop
 ```
-3. Ejecutar ``make``.
+3. Ejecutar make
+```
+make
+```
 
 Los binarios estaran en la carpeta build.
